@@ -26,9 +26,8 @@ class CasperjsServiceProvider extends ServiceProvider {
 	 *
 	 * @return void
 	 */
-	public function register()
-	{
-		//
+	public function register() {
+		$this->app->bind( 'casperjs', 'VesninAndrey\Casperjs' );
 	}
 
 	/**
@@ -38,7 +37,7 @@ class CasperjsServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array();
+		return [];
 	}
 
 }

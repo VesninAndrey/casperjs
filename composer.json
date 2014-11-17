@@ -3,13 +3,14 @@
     "description": "",
     "authors": [
         {
-            "name": "itsumma",
-            "email": "email@itsumma.ru"
+            "name": "Vesnin Andrey",
+            "email": "VesninAndrey@github.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "4.2.*"
+        "illuminate/support": "4.2.*",
+        "intervention/image": "2.*"
     },
     "autoload": {
         "classmap": [
