@@ -1,0 +1,23 @@
+{
+    "name": "vesninandrey/casperjs",
+    "description": "",
+    "authors": [
+        {
+            "name": "itsumma",
+            "email": "email@itsumma.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Vesninandrey\\Casperjs\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
